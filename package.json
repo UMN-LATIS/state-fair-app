@@ -4,10 +4,17 @@
   "description": "Minnesota State Fair Building Facts",
   "scripts": {
     "build": "node build.js",
+    "build:vite": "vite build",
     "serve": "serve dist"
   },
   "dependencies": {
+    "@umn-latis/cla-vue-template": "^2.0.0",
     "handlebars": "^4.7.8",
-    "serve": "^14.2.1"
+    "serve": "^14.2.1",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.3.4",
+    "vite": "^4.4.9"
   }
-} 
+}

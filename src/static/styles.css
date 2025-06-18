@@ -47,12 +47,6 @@ body {
 }
 
 /* Main Content Styles */
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2rem;
-}
-
 h1 {
     text-align: center;
     color: var(--umn-maroon);
@@ -64,13 +58,18 @@ h1 {
 }
 
 #prize-message {
-    background-color: #fff;
-    padding: 2rem;
+    background: #fff8e1; /* very light gold */
+    border: none;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    text-align: center;
+    box-shadow: none;
+    padding: 1.5rem;
     margin-top: 2rem;
-    border: 2px solid var(--umn-gold);
+    text-align: center;
+}
+
+#prize-message h2 {
+    color: var(--umn-maroon);
+    margin-bottom: 0.5rem;
 }
 
 .prize-link {
@@ -88,11 +87,6 @@ h1 {
     background-color: var(--umn-dark-maroon);
 }
 
-.fact-content {
-    background-color: white;
-    padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    margin-bottom: 2rem;
-    border-left: 4px solid var(--umn-gold);
-} 
+.college-header {
+    display:none !important;
+}

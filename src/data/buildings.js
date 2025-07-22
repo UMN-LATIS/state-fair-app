@@ -2,54 +2,64 @@ module.exports = {
     buildings: [
         {
             id: 1,
-            title: "Grandstand Building",
-            fact: "The Grandstand Building, completed in 1909, is one of the oldest buildings at the Minnesota State Fair. It was originally built to host horse racing and other entertainment events. Today, it serves as a major venue for concerts and events during the fair."
+            title: "U of M Central (Crossroads Building)",
+            address: "1674 Dan Patch Ave, Falcon Heights, MN 55108",
+            fact: "Learn how robots are made and see how they function, get up close and personal with raptors, explore magnetic forces and create your own magnet, touch real meteorites, get peppy with the Pep Band, and dance with Goldy Gopher. These are just a few ways to engage with the University of Minnesota at the State Fair."
         },
         {
             id: 2,
-            title: "Agriculture Horticulture Building",
-            fact: "The Agriculture Horticulture Building, built in 1913, is home to the famous crop art competition. Each year, artists create intricate designs using seeds, grains, and other agricultural products."
+            title: "Gabbert Raptor Center",
+            address: "1272 Clough St, Falcon Heights, MN 55108",
+            fact: "Come meet raptors up close and personal! An expert from the Raptor Center will have live birds out on the glove, explaining their unique and important role in our environment. The Raptor Center ensures the health of raptors and the world we share, specializing in the medical care, rehabilitation, and conservation of eagles, hawks, owls, falcons, osprey, and vultures."
         },
         {
             id: 3,
-            title: "Creative Activities Building",
-            fact: "The Creative Activities Building showcases the best of Minnesota's arts and crafts. From quilts to woodworking, this building celebrates the state's creative spirit and craftsmanship."
+            title: "Gopher Dairy Bar (Cattle Barn)",
+            address: "1694 Judson Ave, Falcon Heights, MN 55108",
+            fact: "Stop by the Dairy Bar for a cool shake or a refreshing glass of milk. The bar is operated by students and proceeds benefit student activities."
         },
         {
             id: 4,
-            title: "Education Building",
-            fact: "The Education Building features interactive exhibits from Minnesota's colleges and universities. It's a hub of innovation and learning during the fair."
+            title: "Agriculture Horticulture Building",
+            address: "1271 Underwood St, Falcon Heights, MN 55108",
+            fact: "Join CFANS and other University units to learn how plants grow, how plants and gardens thrive, how invasive species persist, and about careers in food, health, and the environment. Features CFANS exhibit with pop-up learning, 360° virtual reality experience, Master Gardeners for gardening questions, Turfgrass Science experts for lawn care, and Forever Green Initiative showcasing new crops."
         },
         {
             id: 5,
-            title: "Fine Arts Center",
-            fact: "The Fine Arts Center houses the largest juried art show in Minnesota. It features works from both established and emerging artists from across the state."
+            title: "Miracle of Birth Center",
+            address: "Clough St, Falcon Heights, MN 55108",
+            fact: "Watch as U of M veterinary students and faculty work with veterinarians from across the state to assist with births and answer questions."
         },
         {
             id: 6,
-            title: "4-H Building",
-            fact: "The 4-H Building is where young Minnesotans showcase their projects and achievements. It's a testament to the state's commitment to youth development and agriculture education."
+            title: "Pet Center",
+            address: "1681 Murphy Ave, Falcon Heights, MN 55108",
+            fact: "Watch as veterinarians from across the state—assisted by U of M students—demonstrate live spaying/neutering surgeries."
         },
         {
             id: 7,
-            title: "Progress Center",
-            fact: "The Progress Center is home to the famous butter sculptures. Each year, a new butter sculpture is created, often featuring the current Princess Kay of the Milky Way."
+            title: "Dan Patch Park",
+            address: "1314 Chambers St, Falcon Heights, MN 55108",
+            fact: "Visit U of M exhibitors at Dan Patch Avenue as we participate in themed event days such as Read and Ride Day and STEM Day."
         },
         {
             id: 8,
-            title: "Eco Experience",
-            fact: "The Eco Experience building showcases sustainable living practices and environmental innovations. It's one of the fair's most interactive and educational spaces."
+            title: "4-H Building",
+            address: "1412 Cosgrove St, Falcon Heights, MN 55108",
+            fact: "See the impressive work by Minnesota 4-H'ers, including more than 7,000 exhibits, workshops, and hands-on demonstrations ranging from photography to robotics."
         },
         {
             id: 9,
-            title: "International Bazaar",
-            fact: "The International Bazaar celebrates Minnesota's diverse cultural heritage. It features food, crafts, and entertainment from around the world."
+            title: "Department of Natural Resources Building",
+            address: "1272 Clough St, Falcon Heights, MN 55108",
+            fact: "The Natural Resources team of Extension has a spot at an outside table of the DNR building. Attendees will be able to learn more about program offerings and how to get involved with: the Minnesota Master Naturalist Volunteer Program, Aquatic Invasive Species Detectors, forestry, pollinators and the Offal Wildlife Watching Project."
         },
         {
             id: 10,
-            title: "Heritage Square",
-            fact: "Heritage Square preserves and celebrates Minnesota's pioneer history. The buildings here are authentic structures moved from their original locations across the state."
+            title: "Driven to Discover Building",
+            address: "1367 Cosgrove Street, Falcon Heights, MN 55108",
+            fact: "Explore a wide array of research projects at the Driven to Discover Research Facility! We invite you to make your voice heard by participating in one of our many studies ranging from health and medicine to engineering, environmental science, language development and more! There's something for everyone at D2D - from kids to older adults - come learn about science and research and help find solutions to challenges we all face in today's world."
         }
     ],
-    prizeLink: "https://example.com/prize-drawing" // Replace with actual prize drawing URL
+    prizeLink: "https://docs.google.com/forms/d/e/1FAIpQLSedRjG-JJcsXJD2klz8pBYrIgpbOaVJgYgkcT1tvEkPHNvPQQ/viewform?usp=header" // Replace with actual prize drawing URL
 }; 

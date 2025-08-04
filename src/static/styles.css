@@ -223,7 +223,6 @@ h1 {
 .building-item {
     padding: 1rem;
     border-bottom: 1px solid #e0e0e0;
-    cursor: pointer;
     transition: background-color 0.3s;
     border-radius: 8px;
     margin-bottom: 0.5rem;

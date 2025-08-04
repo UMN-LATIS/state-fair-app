@@ -108,11 +108,7 @@ function populateBuildingList() {
             ${isVisited ? '<div class="visit-status">✓ Visited</div>' : ''}
         `;
         
-        buildingItem.addEventListener('click', () => {
-            if (urlHash) {
-                window.location.href = `./${urlHash}.html`;
-            }
-        });
+        // Removed navigation - buildings are just for display
         
         buildingList.appendChild(buildingItem);
     });

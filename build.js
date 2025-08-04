@@ -44,6 +44,7 @@ fs.writeFileSync(
 // Copy static files
 fs.copyFileSync('src/static/styles.css', 'dist/styles.css');
 fs.copyFileSync('src/static/script.js', 'dist/script.js');
+fs.copyFileSync('src/static/buildings-data.json', 'dist/buildings-data.json');
 // Ensure assets directory exists for Vue CSS
 if (!fs.existsSync('dist/assets')) {
     fs.mkdirSync('dist/assets', { recursive: true });

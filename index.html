@@ -15,6 +15,79 @@
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSedRjG-JJcsXJD2klz8pBYrIgpbOaVJgYgkcT1tvEkPHNvPQQ/viewform?usp=header" class="prize-link">Enter our prize drawing</a>
         </div>
     </div>
+    
+    <!-- Progress Indicator -->
+    <div class="progress-container">
+        <div class="progress-bar">
+            <div class="progress-fill" id="progress-fill"></div>
+        </div>
+        <div class="progress-text" id="progress-text">0/10 buildings visited</div>
+    </div>
+    
+    <!-- Building List Button -->
+    <div class="building-list-button" id="building-list-button">
+        <span>📋</span>
+        <span>View All Buildings</span>
+    </div>
+    
+    <!-- About Passport Link -->
+    <div class="about-passport-link" id="about-passport-link">
+        <span>ℹ️</span>
+        <span>About the Passport</span>
+    </div>
+    
+    <!-- Building List Modal -->
+    <div class="building-list-modal" id="building-list-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>All Buildings</h2>
+                <button class="close-button" id="close-modal">&times;</button>
+            </div>
+            <div class="building-list" id="building-list">
+                <!-- Buildings will be populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+    
+    <!-- About Passport Modal -->
+    <div class="about-passport-modal" id="about-passport-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>About Your State Fair Passport</h2>
+                <button class="close-button" id="close-about-modal">&times;</button>
+            </div>
+            <div class="about-passport-content">
+                <div class="passport-info">
+                    <h3>🎫 Welcome to Your State Fair Passport!</h3>
+                    <p>Your State Fair Passport is your digital guide to exploring the amazing University of Minnesota exhibits and activities at the Minnesota State Fair.</p>
+                    
+                    <h4>How It Works:</h4>
+                    <ul>
+                        <li><strong>Visit Buildings:</strong> Navigate to different U of M buildings around the fairgrounds</li>
+                        <li><strong>Track Progress:</strong> See your progress as you visit each location</li>
+                        <li><strong>Learn Facts:</strong> Discover interesting facts about each building and its activities</li>
+                        <li><strong>Win Prizes:</strong> Visit 5 or more buildings to enter our prize drawing!</li>
+                    </ul>
+                    
+                    <h4>Featured Locations:</h4>
+                    <ul>
+                        <li>U of M Central (Crossroads Building)</li>
+                        <li>Gabbert Raptor Center</li>
+                        <li>Gopher Dairy Bar</li>
+                        <li>Agriculture Horticulture Building</li>
+                        <li>Miracle of Birth Center</li>
+                        <li>Pet Center</li>
+                        <li>Dan Patch Park</li>
+                        <li>4-H Building</li>
+                        <li>Department of Natural Resources Building</li>
+                        <li>Driven to Discover Building</li>
+                    </ul>
+                    
+                    <p><strong>Your progress is automatically saved, so you can continue your passport journey anytime!</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html> 

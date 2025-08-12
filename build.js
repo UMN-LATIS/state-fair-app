@@ -12,8 +12,9 @@ if (!fs.existsSync('dist')) {
 const template = fs.readFileSync('src/templates/building.hbs', 'utf-8');
 const compiledTemplate = Handlebars.compile(template);
 
-// Read building data
-const { buildings, prizeLink } = require('./src/data/buildings');
+// Read building data from JSON file
+const buildingsData = JSON.parse(fs.readFileSync('src/static/buildings-data.json', 'utf-8'));
+const { buildings } = buildingsData;
 
 // Generate URL mapping
 const urlMapping = {};
@@ -26,7 +27,7 @@ buildings.forEach(building => {
     const html = compiledTemplate({
         title: building.title,
         fact: building.fact,
-        prizeLink
+        prizeLink: "https://docs.google.com/forms/d/e/1FAIpQLSedRjG-JJcsXJD2klz8pBYrIgpbOaVJgYgkcT1tvEkPHNvPQQ/viewform?usp=header"
     });
     
     fs.writeFileSync(
@@ -54,7 +55,7 @@ if (!fs.existsSync('dist/assets')) {
 const indexHtml = compiledTemplate({
     title: 'Minnesota State Fair Building Facts',
     fact: 'Welcome to the Minnesota State Fair Building Facts tour! Visit different buildings to learn interesting facts about each one.',
-    prizeLink
+    prizeLink: "https://docs.google.com/forms/d/e/1FAIpQLSedRjG-JJcsXJD2klz8pBYrIgpbOaVJgYgkcT1tvEkPHNvPQQ/viewform?usp=header"
 });
 fs.writeFileSync(path.join('dist', 'index.html'), indexHtml);
 

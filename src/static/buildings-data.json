@@ -2,51 +2,51 @@
   "buildings": [
     {
       "id": 1,
-      "title": "U of M Central (Crossroads Building)",
+      "title": "U of M Central",
       "address": "1674 Dan Patch Ave, Falcon Heights, MN 55108",
-      "fact": "Learn how robots are made and see how they function, get up close and personal with raptors, explore magnetic forces and create your own magnet, touch real meteorites, get peppy with the Pep Band, and dance with Goldy Gopher. These are just a few ways to engage with the University of Minnesota at the State Fair."
+      "fact": "The University of Minnesota has been at the State Fair since 1859—one year after Minnesota became a state! The U of M Central Building highlights some of our educational, research, and outreach efforts that contribute to a healthier and more prosperous Minnesota."
     },
     {
       "id": 3,
-      "title": "Gopher Dairy Bar (Cattle Barn)",
+      "title": "Gopher Dairy Bar",
       "address": "1694 Judson Ave, Falcon Heights, MN 55108",
-      "fact": "Stop by the Dairy Bar for a cool shake or a refreshing glass of milk. The bar is operated by students and proceeds benefit student activities."
+      "fact": "The Gopher Dairy Bar is a favorite for fairgoers looking to cool off with a shake or a refreshing glass of milk. The bar is open to all ages and is operated by students, with proceeds benefiting student activities."
     },
     {
       "id": 4,
       "title": "Agriculture Horticulture Building",
       "address": "1271 Underwood St, Falcon Heights, MN 55108",
-      "fact": "Join CFANS and other University units to learn how plants grow, how plants and gardens thrive, how invasive species persist, and about careers in food, health, and the environment. Features CFANS exhibit with pop-up learning, 360° virtual reality experience, Master Gardeners for gardening questions, Turfgrass Science experts for lawn care, and Forever Green Initiative showcasing new crops."
+      "fact": "Our scientists study burps! At the College of Food, Agricultural and Natural Resource Sciences, our scientists study how cows fed with seaweed can burp out less methane—a gas that contributes to climate change."
     },
     {
       "id": 5,
-      "title": "Miracle of Birth Center",
+      "title": "CHS Miracle of Birth Center",
       "address": "Clough St, Falcon Heights, MN 55108",
-      "fact": "Watch as U of M veterinary students and faculty work with veterinarians from across the state to assist with births and answer questions."
+      "fact": "The College of Veterinary Medicine connects with tens of thousands of visitors at the State Fair. Veterinary volunteers help power the CHS Miracle of Birth Center, which gives the public a glimpse into the birth and neonatal care of animals such as pigs, sheep, goats, and chickens."
     },
     {
       "id": 6,
-      "title": "Pet Center",
+      "title": "MVMA Pet Surgery Suite",
       "address": "1681 Murphy Ave, Falcon Heights, MN 55108",
-      "fact": "Watch as veterinarians from across the state—assisted by U of M students—demonstrate live spaying/neutering surgeries."
+      "fact": "Since 1992, the MVMA Surgery Suite has shown fairgoers what veterinary medicine looks like in real life. Alumni, faculty, and students from the University of Minnesota College of Veterinary Medicine are among the volunteers, performing live spay/neuter surgeries on rescue pets and guiding the audience through every step. Surgeries take place daily at 10 a.m., 12 p.m., 2 p.m., and 4 p.m."
     },
     {
       "id": 8,
       "title": "4-H Building",
       "address": "1412 Cosgrove St, Falcon Heights, MN 55108",
-      "fact": "See the impressive work by Minnesota 4-H'ers, including more than 7,000 exhibits, workshops, and hands-on demonstrations ranging from photography to robotics."
+      "fact": "This year marks the 85th anniversary of the 4-H Building at the State Fair, where thousands of 4-H'ers exhibit their projects and animals. Some 48,000 youth participate in Minnesota 4-H annually, making it the largest youth development organization in the state."
     },
     {
       "id": 9,
       "title": "Department of Natural Resources Building",
       "address": "1272 Clough St, Falcon Heights, MN 55108",
-      "fact": "The Natural Resources team of Extension has a spot at an outside table of the DNR building. Attendees will be able to learn more about program offerings and how to get involved with: the Minnesota Master Naturalist Volunteer Program, Aquatic Invasive Species Detectors, forestry, pollinators and the Offal Wildlife Watching Project."
+      "fact": "University of Minnesota Extension engages nearly 35,000 participants and volunteers in ecological topics ranging from prairies to pollinators to water quality. Visit with volunteers in the Minnesota Master Naturalist program, and answer a trivia question to receive either a collective card or a polished Lake Superior agate."
     },
     {
       "id": 10,
       "title": "Driven to Discover Building",
       "address": "1367 Cosgrove Street, Falcon Heights, MN 55108",
-      "fact": "Explore a wide array of research projects at the Driven to Discover Research Facility! We invite you to make your voice heard by participating in one of our many studies ranging from health and medicine to engineering, environmental science, language development and more! There's something for everyone at D2D - from kids to older adults - come learn about science and research and help find solutions to challenges we all face in today's world."
+      "fact": "Over the past 11 years, nearly half a million fairgoers have visited the University of Minnesota’s Driven to Discover Building. More than 150,000 have participated in 400+ research studies—ranging from decoding the DNA of a State Fair corn dog to examining the rise of artificial intelligence in our everyday lives."
     }
   ],
   "urlMapping": {

@@ -131,21 +131,7 @@ function hideBuildingList() {
     }
 }
 
-// Function to show about passport modal
-function showAboutPassport() {
-    const modal = document.getElementById('about-passport-modal');
-    if (modal) {
-        modal.style.display = 'block';
-    }
-}
 
-// Function to hide about passport modal
-function hideAboutPassport() {
-    const modal = document.getElementById('about-passport-modal');
-    if (modal) {
-        modal.style.display = 'none';
-    }
-}
 
 // Function to initialize the app
 function initializeApp() {
@@ -163,9 +149,6 @@ function initializeApp() {
     const closeModalButton = document.getElementById('close-modal');
     const modal = document.getElementById('building-list-modal');
     
-    const aboutPassportLink = document.getElementById('about-passport-link');
-    const closeAboutModalButton = document.getElementById('close-about-modal');
-    const aboutModal = document.getElementById('about-passport-modal');
     
     if (buildingListButton) {
         buildingListButton.addEventListener('click', showBuildingList);
